@@ -3,6 +3,70 @@
 +----------------------------------------------------+
 
 +------------------------------------+
+| Version 33.9.0 - Official Release |
++------------------------------------+------------------------------------------------------------------------+
+|        * Date (dd/mm/yy)                                                                                    |
+|                26/11/18                                                                                     |
+|                                                                                                             |
+|        * Features enabled                                                                                   |
+|                -ALL                                                                                         |
+|                                                                                                             |
+|        * FuseDoc                                                                                            |
+|                                                                                                             |
+|                                                                                                             |
+|        * Change Log                                                                                         |
+|          -    [Customer] [FIX] Fix UVD PG Tile power on/off issue, ticket#119099882                         |
+|                                                                                                             |
+|                                                                                                             |
++-------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------+
+| Version 33.8.0 - Official Release |
++------------------------------------+------------------------------------------------------------------------+
+|        * Date (dd/mm/yy)                                                                                    |
+|                01/11/18                                                                                     |
+|                                                                                                             |
+|        * Features enabled                                                                                   |
+|                -ALL                                                                                         |
+|                                                                                                             |
+|        * FuseDoc                                                                                            |
+|                                                                                                             |
+|                                                                                                             |
+|        * Change Log                                                                                         |
+|          -     PLAT-20827 workaround,added flag to bypass guard of SMU then force NBPstate as expected for HP diag program.
+|          -     PLAT-20827 WA, added flag to bypass guard of SMU then force NBPstate as expected for HP diag program at specific bootup duration.
+|          -     PLAT-20827,WA, added isWAByPass flag to bypass guard checking of SMU thus NBPstate can be forced before NBDpm enabled.
+|          -     PLAT-20827,WA,added 2 messages(0x89,0x90) for customer let them can run their own diag program with NBPstate-Forced
+|          -     PLAT-20827,WA, added msg(0x89,0x90) to bypass guard checking of SMU then force NBPstate as expected for HP diag program.
+|          -     Reversing sanity check for Min and Max Nclk levels                                           |
+|          -     [Customer] [WA] Force Unbwake in unb.c to workaround Chromebook issue                        |
+|          -     [IMP] Add FWHeader for STN Kicker, CTS Fix                                                   |
+|          -     [WKA] Apply a dummy vid change on VddNb to ensure PSI0                                       |
+|          -     [Customer] [WA] Modify ForceUnbWake to original method per farm testing results              |
+|                                                                                                             |
++-------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------+
+| Version 33.7.0 - Official Release |
++------------------------------------+------------------------------------------------------------------------+
+|        * Date (dd/mm/yy)                                                                                    |
+|                28/06/18                                                                                     |
+|                                                                                                             |
+|        * Features enabled                                                                                   |
+|                -ALL                                                                                         |
+|                                                                                                             |
+|        * FuseDoc                                                                                            |
+|                                                                                                             |
+|                                                                                                             |
+|        * Change Log                                                                                         |
+|          -    [PLAT-31619][ST] New Header Field, FW Type, Needed for SMU FW                                 |
+|                                                                                                             |
++-------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------+
 | Version 33.6.0 - Official Release |
 +------------------------------------+------------------------------------------------------------------------+
 |        * Date (dd/mm/yy)                                                                                    |
@@ -15,9 +79,11 @@
 |                                                                                                             |
 |                                                                                                             |
 |        * Change Log                                                                                         |
-|          -     PLAT-20827 - Thermal shut down in HP UEFI Diagnostics memory test - WA that force NBPstate as P3 to pass the testing
+|          -     PLAT-20827 - Thermal shut down in HP UEFI Diagnostics memory test - WA that force NBPstate as P3
+|	         to pass the testing                                                                          |
 |                                                                                                             |
 +-------------------------------------------------------------------------------------------------------------+
+
 
 +------------------------------------+
 | Version 33.5.0 - Official Release |
