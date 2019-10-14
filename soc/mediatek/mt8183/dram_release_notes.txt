@@ -1,0 +1,13 @@
+# 2019.10.23
+
+1. Built from Chrome OS 12617.0.0
+2. Included changes:
+
+fdaa670 driver: Add pmic_wrap for adjusting voltages
+5178528 dramc: Redirect console output to provided callback
+b5636b4 dramc: Remove start and end patterns from sdram_params
+ae64f23 dramc: Add 'dramc_param' for sharing configs in a better way
+aa556fb dramc: Minimal effort to support both eMCP and discrete in same blob
+79e9bb5 dramc: Save DRAM calibration result to coreboot for fast calibration
+ae95839 dramc: Loader of the blob should support ELF format
+1a9ce1a porting DRAM full calibration driver
