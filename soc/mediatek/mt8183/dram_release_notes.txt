@@ -1,3 +1,11 @@
+# 2019.10.31
+
+1. Built from Chrome OS 12573.16.0
+2. Included changes:
+
+CL:*2067070 dramc: Control DVFS from config
+CL:*2026388 driver: Add udelay after setting voltages
+
 # 2019.10.23
 
 1. Built from Chrome OS 12617.0.0
