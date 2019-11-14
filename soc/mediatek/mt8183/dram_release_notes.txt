@@ -1,3 +1,10 @@
+# 2019.11.14
+
+1. Built from Chrome OS 12573.20.0
+2. Included changes:
+
+CL:*2134550 driver: Do not add \r when printing logs to external console
+
 # 2019.10.31
 
 1. Built from Chrome OS 12573.16.0
