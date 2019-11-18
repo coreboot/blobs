@@ -1,3 +1,10 @@
+# 2019.11.18
+
+1. Build from Chrome OS 12573.25.0
+2. Included changes:
+
+CL:*2150073 dramc: reduce the default DRAM calibration log
+
 # 2019.11.14
 
 1. Built from Chrome OS 12573.20.0
