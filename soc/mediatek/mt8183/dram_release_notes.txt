@@ -1,3 +1,10 @@
+# 2019.11.20
+
+1. Build from Chrome OS 12573.28.0
+2. Included changes:
+
+CL:*2173841 dramc: fast-k: save TX window param result with correct type
+
 # 2019.11.18
 
 1. Build from Chrome OS 12573.25.0
