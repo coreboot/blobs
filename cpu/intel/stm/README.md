@@ -39,7 +39,7 @@ interface with the STM:
 
 SMI Transfer Monitor (STM) User Guide, August 2015
 
-The above document can be obtained from firmware.intel.com.
+The above document can be obtained from https://firmware.intel.com.
 
 The STM-PE interface is defined in the Readme.STMPE file found on
-the stmpe branch of review.coreboot.org/STM.
+the stmpe branch of https://review.coreboot.org/STM.
