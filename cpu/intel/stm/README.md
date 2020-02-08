@@ -43,4 +43,3 @@ The above document can be obtained from firmware.intel.com.
 
 The STM-PE interface is defined in the Readme.STMPE file found on
 the stmpe branch of review.coreboot.org/STM.
-
