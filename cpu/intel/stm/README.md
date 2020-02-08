@@ -16,8 +16,8 @@ It has been tested on the Purism Librem 15v4 (Kaby Lake), Dell 990
 
 ## Instructions:
 
-This folder serves as the location for the stm.bin file.  The developer
-can use the default stm.bin provided or replace it with one that has
+This folder serves as the location for the `stm.bin` file.  The developer
+can use the default `stm.bin` provided or replace it with one that has
 been custom built.  The coreboot build system will look here for the
 STM binary when the STM has been configured.
 
