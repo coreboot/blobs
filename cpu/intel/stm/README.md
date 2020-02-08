@@ -10,7 +10,7 @@ Dec 3, 2019
 
 ## Supported silicon:
 
-The STM is designed to be BIOS, platform, and operating system agnostic.
+The STM is designed to be firmware, platform, and operating system agnostic.
 It has been tested on the Purism Librem 15v4 (Kaby Lake), Dell 990
 (Sandybridge with a non-coreboot BIOS), and Minnowboard Max (Atom).
 
