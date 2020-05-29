@@ -1,5 +1,4 @@
-**coreboot binary policy v1.0**
-
+# coreboot binary policy v1.0
 
 While coreboot attempts to be binary free, some coreboot mainboards require
 vendor binaries to support silicon and features. It is an unfortunate fact,
