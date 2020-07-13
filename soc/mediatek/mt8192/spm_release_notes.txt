@@ -1,0 +1,4 @@
+** Build from MediaTek Internal **
+
+# 2020.07
+1. Support SPM suspend at the end of system suspend.

@@ -2,6 +2,7 @@
 - drame.elf
 - dpm.dm
 - dpm.pm
+- spm_firmware.bin
 
 --------------------------------------------------------------------------------
 # `dram.elf` Introduction
@@ -98,3 +99,24 @@ They are loaded into DPM SRAM when system inits.
 
 ## Version
   - No version yet.
+
+--------------------------------------------------------------------------------
+# SPM Introduction
+
+SPM is able to turn off more power such as DRAM self-refresh mode and 26M clock off
+when system is in suspend. Also, SPM helps support Vcore DVFS feature.
+
+## Who uses it
+   - Linux kernel system suspend and Vcore DVFS.
+
+## How to load `spm_fimware.bin`
+   - Use CBFS to load "spm_fimware.bin" to DRAM and SPM DMA loads it from dram to SPM SRAM.
+
+## Return Values
+   SPM driver in coreboot checks if pmem_words/dmem_words are 16-byte aligned in `spm_fimware.bin`
+   - yes : SPM DMA can load `spm_fimware.bin` to SPM SRAM correctly.
+   - no  : assert(0)
+
+## Version
+   Search "spmfw (version" will show log like below
+   - spmfw (version pcm_suspend_v1.43_no_GPU_WAYEN)
