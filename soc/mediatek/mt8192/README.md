@@ -1,5 +1,7 @@
 # Firmware list
 - drame.elf
+- dpm.dm
+- dpm.pm
 
 --------------------------------------------------------------------------------
 # `dram.elf` Introduction
@@ -72,3 +74,27 @@ for faster bootup after the frist bootup.
 ## Return Values
    - 0   : means successful.
    - < 0 : means failed.
+
+--------------------------------------------------------------------------------
+# DPM Introduction
+
+DPM is hardware module which is used for DRAM Power Management, which
+is used for DRAM low power.
+For example: self refresh, disable PLL/DLL when not in used.
+
+DPM includes two parts of images: data part (`dpm.dm`) and program part (`dpm.pm`).
+They are loaded into DPM SRAM when system inits.
+
+## Who uses it
+   - coreboot will load dpm at ramstage. It will copy `dpm.dm` & `dpm.pm` to DPM SRAM.
+
+## How to load DPM
+   - Use CBFS to load `dpm.dm` and `dpm.pm`.
+   - No need to pass other parameters to DPM.
+
+## Return Values
+   - 0  : means successful;
+   - -1 : means failed;
+
+## Version
+  - No version yet.
