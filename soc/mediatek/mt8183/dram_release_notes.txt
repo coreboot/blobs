@@ -1,3 +1,11 @@
+# 2020.08.12
+
+1. Build from Chrome OS 12573.132.0, incompatible with previous versions.
+   Header version = 3.
+2. Included changes:
+
+CL:*3208271 dramc: MT8183: Add ddr geometry to support 6GB, 8GB DDR bootup
+
 # 2019.11.20
 
 1. Build from Chrome OS 12573.28.0
