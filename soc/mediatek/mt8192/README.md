@@ -4,6 +4,7 @@
 - dpm.pm
 - spm_firmware.bin
 - sspm.bin
+- mcupm.bin
 
 --------------------------------------------------------------------------------
 # `dram.elf` Introduction
@@ -143,3 +144,22 @@ SSPM firmware is loaded into SSPM SRAM at system initialization.
 
 ## Version
   - No version yet.
+
+--------------------------------------------------------------------------------
+# MCUPM Introduction
+
+MCUPM is a hardware module which is used for MCUSYS Power Management,
+for example: core/cluster on/off. MCUPM firmware (`mcupm.bin`) is loaded into
+MCUPM SRAM at system initialization.
+
+## Who uses it
+   - coreboot will load MCUPM at ramstage. It will copy mcupm.bin to MCUPM SRAM.
+
+## How to load `mcupm.bin`
+   - Use CBFS to load `mcupm.bin`, then set normal boot flag and release software reset pin of MCUPM.
+
+## Return Values
+  - No return value.
+
+## Version
+  - Refer to MCUPM release note.
