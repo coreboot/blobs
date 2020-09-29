@@ -1,3 +1,10 @@
+# 2020.09.29
+1. Build from Chrome OS 12573.136.0, incompatible with previous versions.
+   Header version = 4.
+2. Included changes:
+
+CL:*3222235 dramc: MT8183: Enable CA perbit mechanism
+
 # 2020.08.12
 
 1. Build from Chrome OS 12573.132.0, incompatible with previous versions.
