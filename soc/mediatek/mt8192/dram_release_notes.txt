@@ -1,3 +1,11 @@
+# 2020.11.05
+
+1. A local build and incompatible with previous versions.
+   Header version = 4.
+2. Include changes:
+
+CL:*3398084 dramc: MT8192: add max freq flag
+
 # 2020.09.16
 
 1. Built from Chrome OS 13473.0.2020_09_16_2253.
