@@ -1,5 +1,10 @@
 ** Build from MediaTek Internal **
 
+# 2020.11.12
+1. Update mcupm.bin to v1.0.5
+2. Add EM table into mcupm
+3. Add SVS CPU
+
 # 2020.09.11
 1. Update mcupm.bin to v1.0.4
 2. Add cpufreq opp table into MCUPM
