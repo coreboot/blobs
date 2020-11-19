@@ -3,6 +3,7 @@
 - dpm.dm
 - dpm.pm
 - spm_firmware.bin
+- sspm.bin
 
 --------------------------------------------------------------------------------
 # `dram.elf` Introduction
@@ -120,3 +121,25 @@ when system is in suspend. Also, SPM helps support Vcore DVFS feature.
 ## Version
    Search "spmfw (version" will show log like below
    - spmfw (version pcm_suspend_v1.43_no_GPU_WAYEN)
+
+--------------------------------------------------------------------------------
+# SSPM Introduction
+
+SSPM is "Secure System Power Manager" that provides power control in secure domain.
+SSPM provides power related features, e.g. CPU DVFS, thermal control, to offload
+application processor for security reason.
+
+SSPM firmware is loaded into SSPM SRAM at system initialization.
+
+## Who uses it
+   - coreboot will load sspm.bin to SSPM SRAM at ramstage.
+
+## How to load `sspm.bin`
+   - Use CBFS to load `sspm.bin`.
+   - No need to pass other parameters to SSPM.
+
+## Return Value
+  - No return value.
+
+## Version
+  - No version yet.
