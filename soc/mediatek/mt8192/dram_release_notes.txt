@@ -1,3 +1,11 @@
+# 2020.12.01
+
+1. A local build and incompatible with previous versions.
+   Header version = 5.
+2. Include changes:
+
+CL:*3438249 dramc: MT8192: Add discrete DDR support
+
 # 2020.11.05
 
 1. A local build and incompatible with previous versions.
