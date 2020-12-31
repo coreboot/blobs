@@ -1,5 +1,9 @@
 ** Build from MediaTek Internal **
 
+# 1.00.06
+1. Add version number
+2. Modify SRAM layout for CPU DVFS
+
 # 2020.11.12
 1. Update mcupm.bin to v1.0.5
 2. Add EM table into mcupm
