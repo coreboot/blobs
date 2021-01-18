@@ -1,3 +1,18 @@
+# 1.5.1
+
+1. A local build from 71629f0 (CL:*3639823), incompatible with previous versions.
+   Protocal (params header) version: 5
+
+2. Include changes:
+
+  CL:*3475447 dramc: mt8192: enable per-bank refresh
+  CL:*3531917 dramc: mt8192: Add ddr_type for struct sdram_info
+  CL:*3517916 dramc: mt8192: Add EMI Settings of 8GB normal mode
+  CL:*3568265 dramc: mt8192: Move memory address to 0x00250000 (Depends: CB:50017)
+  CL:*3574468 dramc: mt8192: Add blob version
+  CL:*3596349 dramc: mt8192: set max freq 3200 for discrete DDR
+  CL:*3639823 dramc: mt8192: fix blob version issue
+
 # 2020.12.01
 
 1. A local build and incompatible with previous versions.
