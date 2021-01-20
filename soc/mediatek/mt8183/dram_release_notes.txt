@@ -1,3 +1,11 @@
+# 2021.01.20
+1. Build from Chrome OS 12573.197.0, incompatible with previous versions.
+   Header version = 5.
+
+2. Include changes:
+
+CL:*3531920 dramc: mt8183: add 8GB dram byte mode setting
+
 # 2020.09.29
 1. Build from Chrome OS 12573.136.0, incompatible with previous versions.
    Header version = 4.
