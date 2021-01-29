@@ -143,7 +143,8 @@ SSPM firmware is loaded into SSPM SRAM at system initialization.
   - No return value.
 
 ## Version
-  - No version yet.
+  - $ strings sspm.bin | grep version
+    MediaTek SSPM firmware: version 1.0.0
 
 --------------------------------------------------------------------------------
 # MCUPM Introduction
