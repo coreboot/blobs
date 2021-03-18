@@ -1,6 +1,9 @@
 Files:
         APCB_CZN_D4.bin - Data only - No license, ABI or Version #
 
+2021-03-18:
+- Update DRQ routing
+
 2021-03-11: Initial drop:
 - Add APCB_CZN_D4.bin
     This is a data file that gives configuration data to AMD's ABL,
