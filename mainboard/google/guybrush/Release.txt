@@ -1,5 +1,9 @@
 Files:
         APCB_CZN_D4.bin - Data only - No license, ABI or Version #
+        APCB_CZN_D4_ABL_DEBUG.bing - Data only - No license, ABI or Version #
+
+2021-03-19:
+- Remove all debug output
 
 2021-03-18:
 - Update DRQ routing
