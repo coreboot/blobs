@@ -1,3 +1,12 @@
+# 2021.04.06
+1. Build from Chrome OS 12573.224.0, compatible with previous versions.
+   Header version = 5.
+
+2. Include changes:
+
+CL:*3724354 dramc: Do not print if serial console is disabled
+CL:*3724353 dramc: mt8183: Add blob version
+
 # 2021.01.20
 1. Build from Chrome OS 12573.197.0, incompatible with previous versions.
    Header version = 5.

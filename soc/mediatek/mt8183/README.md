@@ -102,3 +102,10 @@ to NAND/NOR (or EMMC) in the specified section: `RW_DDR_TRAINING`.
 
 - 0   : means successful.
 - < 0 : means failed.
+
+## Version
+
+```
+$ strings dram.elf | grep "firmware version"
+MediaTek DRAM firmware version: 1.5.0
+```
