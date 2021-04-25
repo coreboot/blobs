@@ -1,3 +1,14 @@
+# 1.6.2
+
+1. Chrome OS build from 13885.15.0.
+   Protocol (params header) version: 6
+
+2. Include changes:
+
+  CL:*3785326 dramc: mt8192: fix emi settings count
+  CL:*3787636 dramc: mt8192: Include sdram_info in ddr_base_info
+  CL:*3787637 dramc: mt8192: Update version to 1.6.2
+
 # 1.6.0
 
 1. Chrome OS build from 13869.0.0.
