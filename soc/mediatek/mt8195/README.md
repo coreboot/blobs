@@ -2,6 +2,7 @@
 - mcupm.bin
 - sspm.bin
 - spm_firmware.bin
+- dram.elf
 
 --------------------------------------------------------------------------------
 # MCUPM introduction
@@ -57,5 +58,91 @@ No return value.
 
 ## Version
 `$ strings spm_firmware.bin | grep pcm_suspend`
+
+--------------------------------------------------------------------------------
+# `dram.elf` introduction
+`dram.elf` is an ELF format file, which performs DRAM full calibration and
+returns the trained calibration parameters to the caller.
+The caller may store the parameters on NOR/NAND or eMMC for faster subsequent
+bootups.
+
+## Who uses it
+Coreboot loads `dram.elf` during the first bootup if no valid DRAM parameters
+are found on NOR/NAND or eMMC.
+
+## How to load `dram.elf`
+Coreboot locates `dram.elf` file, locates the entry point `_start`,
+passes a `dramc_param` struct argument `dparam` to it, and calls
+`_start(&dparam)` to execute `dram.elf`.
+
+## Parameters
+```
+struct dramc_param {
+    struct dramc_param_header header; // see below
+    void (*do_putc)(unsigned char c);
+    struct dramc_data dramc_datas;    // see below
+};
+```
+
+Below shows the internal structure of `dramc_param`:
+```
+struct dramc_param_header {
+    u16 version;    /* DRAMC_PARAM_HEADER_VERSION, update in the coreboot */
+    u16 size;       /* size of whole dramc_param, update in the coreboot */
+    u16 status;     /* DRAMC_PARAM_STATUS_CODES, update in the dram blob */
+    u16 flags;      /* DRAMC_PARAM_FLAGS, update in the dram blob */
+};
+
+struct sdram_info {
+	u32 ddr_type;			/* SDRAM_DDR_TYPE */
+	u32 ddr_geometry;		/* SDRAM_DDR_GEOMETRY_TYPE */
+};
+
+struct sdram_params {
+    u32 rank_num;
+    u16 num_dlycell_perT;
+    u16 delay_cell_timex100;
+
+    /* duty */
+    s8 duty_clk_delay[CHANNEL_MAX][RANK_MAX];
+    s8 duty_dqs_delay[CHANNEL_MAX][DQS_NUMBER_LP4];
+    s8 duty_wck_delay[CHANNEL_MAX][DQS_NUMBER_LP4];
+    .......
+    .......
+};
+
+struct emi_mdl {
+	u32 cona_val;
+	u32 conh_val;
+	u32 conf_val;
+	u32 chn_cona_val;
+};
+
+struct ddr_base_info {
+	u32 config_dvfs;		/* SDRAM_DVFS_FLAG */
+	struct sdram_info sdram;
+	u32 voltage_type;		/* SDRAM_VOLTAGE_TYPE */
+	u32 support_ranks;
+	u64 rank_size[RANK_MAX];
+	struct emi_mdl emi_config;
+	DRAM_CBT_MODE_T cbt_mode[RANK_MAX];
+};
+
+struct dramc_data {
+	struct ddr_base_info ddr_info;
+	struct sdram_params freq_params[DRAM_DFS_SHU_MAX];
+};
+```
+
+## The output of `dram.elf`
+`dram.elf` configures suitable dramc settings and returns the DRAM parameters.
+Then, Coreboot saves the parameters on the specified firmware flash section:
+`"RW_MRC_CACHE"`.
+
+## Return values
+0 on success; < 0 on failure.
+
+## Version
+`$ strings dram.elf | grep "firmware version"`
 
 --------------------------------------------------------------------------------

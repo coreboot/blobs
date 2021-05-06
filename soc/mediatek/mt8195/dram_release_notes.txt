@@ -1,0 +1,14 @@
+# 1.7.1
+
+Protocol (params header) version: 7
+
+Include changes:
+
+CL:*3960396 mtk-dramk/mt8195: DRAMC: Update the DRAMC_PARAM_HEADER_VERSION to '7'
+CL:*3960395 mtk-dramk/mt8195: Add version information
+CL:*3960394 mtk-dramk/mt8195: Add pmic driver to get Vcore
+CL:*3960393 mtk-dramk/mt8195: DRAMC: Add unsigned define value.
+CL:*3960392 mtk-dramk/mt8195: DRAMC: Enable vref calibration at DDR3200 for enter/exit S0 stability.
+CL:*3960391 mtk-dramk/mt8195: DRAMC: Duty calibration criteira is not proper, redefine the criteria value.
+CL:*3960390 mtk-dramk/mt8195: DRAMC: Duty Last K global variables use channel to save last K values.
+CL:*3960389 mtk-dramk/mt8195: Chrome fast k flow porting
