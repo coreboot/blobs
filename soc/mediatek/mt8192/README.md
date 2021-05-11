@@ -79,7 +79,7 @@ for faster bootup after the frist bootup.
 
 ## Version
   - $ strings dram.elf | grep "firmware version"
-    MediaTek DRAM firmware version: 1.6.2
+    MediaTek DRAM firmware version: 1.6.3
 
 --------------------------------------------------------------------------------
 # DPM Introduction
