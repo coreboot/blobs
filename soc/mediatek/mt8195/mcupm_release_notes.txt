@@ -1,0 +1,4 @@
+** Build from MediaTek Internal **
+
+# v1.00.00
+1. Initial release.
