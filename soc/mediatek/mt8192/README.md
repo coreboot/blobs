@@ -167,4 +167,4 @@ MCUPM SRAM at system initialization.
 
 ## Version
   - $ strings mcupm.bin | grep MCUPM
-    MediaTek MCUPM firmware: version 1.00.06
+    MediaTek MCUPM firmware: version 1.00.07

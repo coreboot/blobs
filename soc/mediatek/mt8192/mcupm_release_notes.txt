@@ -1,5 +1,8 @@
 ** Build from MediaTek Internal **
 
+# 1.00.07
+1. Add 2.6G CPU DVFS segment
+
 # 1.00.06
 1. Add version number
 2. Modify SRAM layout for CPU DVFS
