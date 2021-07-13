@@ -1,4 +1,7 @@
 ** Build from MediaTek Internal **
 
+# v1.01.00
+1. Add mcupm thermal features.
+
 # v1.00.00
 1. Initial release.
