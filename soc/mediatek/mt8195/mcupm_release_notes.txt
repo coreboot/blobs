@@ -1,5 +1,8 @@
 ** Build from MediaTek Internal **
 
+# v1.02.00
+1. Support CPU frequency for both 3.0G and 2.6G.
+
 # v1.01.00
 1. Add mcupm thermal features.
 
