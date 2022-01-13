@@ -1,5 +1,6 @@
 # Firmware list
-- spm_firmware.bin
+- `spm_firmware.bin`
+- `sspm.bin`
 
 --------------------------------------------------------------------------------
 # SPM introduction
