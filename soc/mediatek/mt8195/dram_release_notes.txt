@@ -1,3 +1,12 @@
+# 1.8.1
+
+1. Chrome OS build from 14507.0.0.
+   Protocol (params header) version: 8
+
+2. Included changes:
+
+   CL:*4389197: mtk-dramk/mt8186,8192,8195: Extract dramc_param_header to common header
+
 # 1.7.1
 
 Protocol (params header) version: 7
