@@ -1,4 +1,7 @@
 Files:
+        TypeId0x55_SplTable_Prod_CZN_Chrome.sbin - SPL for Guybrush
+
+Files:
         APCB_CZN_D4.bin - Data only - No license, ABI or Version #
 
 2021-04-05:
