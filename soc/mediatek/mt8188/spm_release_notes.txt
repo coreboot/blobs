@@ -1,0 +1,4 @@
+** Build from MediaTek Internal **
+
+# pcm_suspend_20220705_v2_MP
+1. SPM suspend can turn 26M clock off when system goes into suspend.
