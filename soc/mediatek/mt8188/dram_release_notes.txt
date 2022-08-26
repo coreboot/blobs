@@ -1,0 +1,14 @@
+# 0.1.0
+
+1. A local build.
+   Protocol (params header) version: 1
+
+2. Included changes:
+
+- CL:*4911803 mtk-dramk/mt8188: Add fast-k support
+- CL:*4911802 mtk-dramk/mt8188: Make source code compilable and runable
+- CL:*4933742 mtk-dramk: Move typedefs.h to common folder
+- CL:*4933741 mtk-dramk: Refactor emi files
+- CL:*4916640 mtk-dramk: Enable checkpatch_check
+- CL:*4916639 COIL: Add unblocked_terms.txt
+- CL:*4911800 mtk-dramk/mt8188: First code drop from MT8188 internal DRAM preloader
