@@ -1,0 +1,25 @@
+Files:
+        APCB_MDN_D5.bin - Data only - No license, ABI or Version #
+
+2022-09-02: Initial public release:
+- Add APCB_MDN_D5.bin
+    This is a data file that gives configuration data to AMD's ABL,
+    the PSP AGESA Bootloader.  As there is no code, there is no ABI,
+    license, or version number.
+
+    Specified contents describing memory initialization:
+    Memory is 2 channel, LPDDR5/LPDDR5x
+
+    The GPIOs to use for the SPD identifiers:
+    Bit 0: GPIO 144
+    Bit 1: GPIO 85
+    Bit 2: GPIO 79
+    Bit 3: GPIO 91
+
+   Contains 16 slots for possible SPD entries.
+   UMA size is set to 64MB.
+   eSPI I/O range address and size configuration.
+   MEMRESTORECTL is enabled to leverage MRC Cache.
+
+sha1sum:
+a91237472d662b8035450e19f118adaece4748f4  APCB_MDN_D5.bin
