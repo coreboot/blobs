@@ -12,7 +12,7 @@ MCUPM is a hardware module which is used for MCUSYS Power Management.
 MCUPM firmware (`mcupm.bin`) is loaded into MCUPM SRAM at system initialization.
 
 ## Who uses it
-Coreboot will load MCUPM at ramstage. It will copy mcupm.bin to MCUPM SRAM.
+coreboot will load MCUPM at ramstage. It will copy mcupm.bin to MCUPM SRAM.
 
 ## How to load `mcupm.bin`
 Use CBFS to load `mcupm.bin`, then set normal boot flag and release software reset pin of MCUPM.
@@ -32,7 +32,7 @@ application processor for security reason.
 SSPM firmware is loaded into SSPM SRAM at system initialization.
 
 ## Who uses it
-Coreboot will load sspm.bin to SSPM SRAM at ramstage.
+coreboot will load sspm.bin to SSPM SRAM at ramstage.
 
 ## How to load `sspm.bin`
 Use CBFS to load `sspm.bin`.
@@ -69,11 +69,11 @@ The caller may store the parameters on NOR/NAND or eMMC for faster subsequent
 bootups.
 
 ## Who uses it
-Coreboot loads `dram.elf` during the first bootup if no valid DRAM parameters
+coreboot loads `dram.elf` during the first bootup if no valid DRAM parameters
 are found on NOR/NAND or eMMC.
 
 ## How to load `dram.elf`
-Coreboot locates `dram.elf` file, locates the entry point `_start`,
+coreboot locates `dram.elf` file, locates the entry point `_start`,
 passes a `dramc_param` struct argument `dparam` to it, and calls
 `_start(&dparam)` to execute `dram.elf`.
 
@@ -138,7 +138,7 @@ struct dramc_data {
 
 ## The output of `dram.elf`
 `dram.elf` configures suitable dramc settings and returns the DRAM parameters.
-Then, Coreboot saves the parameters on the specified firmware flash section:
+Then, coreboot saves the parameters on the specified firmware flash section:
 `"RW_MRC_CACHE"`.
 
 ## Return values

@@ -11,13 +11,13 @@ for faster bootup after the first bootup.
 
 ## Who uses it
 
-Coreboot loads `dram.elf` at the first time bootup if no DRAM parameters have
+coreboot loads `dram.elf` at the first time bootup if no DRAM parameters have
 been cached.
 
 
 ## How to load `dram.elf`
 
-Coreboot locates `dram.elf` file, and locates the entry point `_start`,
+coreboot locates `dram.elf` file, and locates the entry point `_start`,
 then it passes DRAM struct `param`, and calls `_start(&param)` to execute
 `dram.elf` flow.
 
