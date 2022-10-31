@@ -1,4 +1,8 @@
 ** Build from MediaTek Internal **
+# v1.01.03
+1. The efuse memory address is wrong for MCUPM to access. Add the
+   offset to revise the efuse memory address.
+
 # v1.01.02
 1. Remove mtk header.
 
