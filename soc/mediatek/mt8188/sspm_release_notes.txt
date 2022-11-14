@@ -1,4 +1,6 @@
 ** Build from MediaTek Internal **
+# 1.88.01
+1. Add error checking for last_emi to avoid null pointer issue.
 
 # 1.88.00
 1. Add sspm.bin v1.88.00.
