@@ -1,4 +1,7 @@
 ** Build from MediaTek Internal **
 
+# v2.0.0
+1. Add PMIC MT6315 support for SSPM.
+
 # v1.0.0
 1. Add sspm.bin v1.0.0.
