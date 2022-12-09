@@ -1,5 +1,34 @@
 Files:
         APCB_MDN_D5.bin - Data only - No license, ABI or Version #
+	TypeId0x55_SplTableBl_MDN_CHROME_RO.sbin - Data only, no license
+	TypeId0x55_SplTableBl_MDN_CHROME.sbin - Data only, no license
+
+2022-12-12: Initial release of the ChromeOS RO SPL table
+
+SPL/SVN - Security Patch level / Security Version Number
+A version number used to prevent Rollback attacks.
+Software updates with an SVN lower than the currently installed SVN
+are not permitted.
+
+* Version: 3c.03.12
+* Release Date: 2022-09-25
+* Supported Silicon: AMD Mendocino
+* Requirements/dependencies: None
+* Errata: None
+
+Versioned Chip Endorsement Key (VCEK) Certificate and KDS Interface
+Specification
+Document # 57230 Rev. 0.50 October 2021
+https://web.archive.org/web/20221213033802/https://www.amd.com/system/files/TechDocs/57230.pdf
+
+
+2022-09-27: Initial release of the ChromeOS RW SPL table
+
+* Version: 3c.03.12
+* Release Date: 2022-09-25
+* Supported Silicon: AMD Mendocino
+* Requirements/dependencies: None
+* Errata: None
 
 2022-09-02: Initial public release:
 - Add APCB_MDN_D5.bin
@@ -23,3 +52,5 @@ Files:
 
 sha1sum:
 a91237472d662b8035450e19f118adaece4748f4  APCB_MDN_D5.bin
+e66c4ace7fa13913d2147016a7a0544b9f52de61  TypeId0x55_SplTableBl_MDN_CHROME_RO.sbin
+c761d0c9386f302ea50fefd8762b1b4c85df117b  TypeId0x55_SplTableBl_MDN_CHROME.sbin
