@@ -1,5 +1,8 @@
 ** Build from MediaTek Internal **
 
+# v2.0.1
+1. Fix PMIC MT6315 regulator issue.
+
 # v2.0.0
 1. Add PMIC MT6315 support for SSPM.
 
