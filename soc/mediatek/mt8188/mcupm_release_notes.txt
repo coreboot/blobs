@@ -1,4 +1,7 @@
 ** Build from MediaTek Internal **
+# v1.01.04
+1. Update CPU DVFS OPP table to enhance power saving.
+
 # v1.01.03
 1. The efuse memory address is wrong for MCUPM to access. Add the
    offset to revise the efuse memory address.
