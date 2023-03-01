@@ -1,3 +1,15 @@
+# 0.1.1
+
+1. Add scramble switch for production build and serial build compatiblity.
+   Fix fast-k single rank wrong register bit.
+
+2. Included changes:
+
+- CL:*5498291 mtk-dramk/common: Add scramble switch
+- CL:*5504769 mtk-dramk/common: Copy soc/emi.h to dramk/common from coreboot
+- CL:*5533692 mtk-dramk/mt8188: Fix fast-k single rank wrong register bit
+
+
 # 0.1.0
 
 1. A local build.
