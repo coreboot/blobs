@@ -1,3 +1,11 @@
+# 0.1.2
+1. ChromeOS build from 15581.0.0.
+
+2. Included changes:
+- CL:*6306734 mt8188: Bump FIRMWARE_BUILD_VER to 2
+- CL:*6287799 mt8188: Use ARM architecture timer
+
+
 # 0.1.1
 
 1. Add scramble switch for production build and serial build compatiblity.
