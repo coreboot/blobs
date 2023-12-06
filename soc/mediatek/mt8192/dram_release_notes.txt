@@ -1,3 +1,21 @@
+# 1.8.3
+
+1. ChromeOS build from 15692.0.0.
+   Protocol (params header) version: 8
+
+2. Include changes:
+
+  CL:*3960051 dramc: Remove duplicate enum declaration
+  CL:*4389197 mtk-dramk/mt8186,8192,8195: Extract dramc_param_header to common header
+  CL:*4492533 mtk-dramk: Add 'extern' keyword for do_putc()
+  CL:*4585853 mtk-dramk/mt8186,8192,8195: Refactor dramc_param to share more structures
+  CL:*4585213 mt8192: refactor: Move cros-specific files to 'cros/' folder
+  CL:*4585433 refactor: move the shared */cros/{driver,lib} to common/cros
+  CL:*4585613 refactor: merge cros/inc and cros/include folders
+  CL:*4588151 refactor: move dramc_param to common/cros
+  CL:*4916638 mtk-dramk: Remove trailing whitespaces and newlines
+  CL:*4933741 mtk-dramk: Refactor emi files
+
 # 1.6.3
 
 1. Chrome OS build from 13885.22.0.
