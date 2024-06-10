@@ -1,4 +1,7 @@
 ** Build from MediaTek Internal **
 
+# Version 2.0
+1. Update sspm.bin to support SLBC function.
+
 # Version 1.0
 1. Add sspm.bin v1.0.
