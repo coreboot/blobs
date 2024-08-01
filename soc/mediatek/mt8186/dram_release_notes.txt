@@ -1,3 +1,11 @@
+# 0.1.1
+
+1. ChromeOS build from 15979.0.0.
+
+2. Included changes:
+
+- CL:*7546745: mtk-dramk/mt8186: Fix fast-k RX Vref smaller issue
+
 # 0.1.0
 
 1. A local build.
