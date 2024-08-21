@@ -1,0 +1,4 @@
+** Build from MediaTek Internal **
+
+# Version 1.0
+1. Add sspm.bin v1.0.
