@@ -1,0 +1,4 @@
+# 0.3.0
+
+1. An official build from ChromeOS version 16093.0.0.
+   Protocol (params header) version: 3
