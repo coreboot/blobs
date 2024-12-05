@@ -2,3 +2,13 @@
 
 1. An official build from ChromeOS version 16093.0.0.
    Protocol (params header) version: 3
+
+# 0.4.0
+
+1. An official build from ChromeOS version 16117.0.0.
+   Protocol (params header) version: 4
+
+2. Included changes:
+
+- CL:*7518650 mt8196: SLC: Port SLC driver
+- CL:*7842174 mtk-dramk/mt8196: Sync to MediaTek's preloader version 20241121
