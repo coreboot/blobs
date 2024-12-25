@@ -5,6 +5,7 @@
 - dpm.pm
 - dram.elf
 - spm_firmware.bin
+- gpueb_fw.img
 
 --------------------------------------------------------------------------------
 # MCUPM introduction
@@ -193,5 +194,25 @@ No return value.
 
 ## Version
 `$ strings spm_firmware.bin | grep "spm firmware"`
+
+--------------------------------------------------------------------------------
+# GPUEB introduction
+GPUEB is a micro-processor used for GPU power management.
+In addition, it is responsible for controlling GPU DVFS and GPU thermal throttling.
+
+## Who uses it
+Coreboot will load GPUEB firmware at ramstage, parse it, and copy the resulting image to the
+SRAM of GPUEB.
+
+## How to load `gpueb_fw.img`
+Use CBFS to load `gpueb_fw.img`.
+After loading is complete, apply the normal boot settings and release the software
+reset to trigger GPUEB.
+
+## Return values
+No return value.
+
+## Version
+`$ strings gpueb_fw.img | grep "gpueb firmware"`
 
 --------------------------------------------------------------------------------
