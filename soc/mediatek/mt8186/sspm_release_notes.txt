@@ -1,5 +1,9 @@
 ** Build from MediaTek Internal **
 
+# v2.0.2
+1. Fix error handler for infra timeout in SSPM.
+2. Enable SSPM debug configs.
+
 # v2.0.1
 1. Fix PMIC MT6315 regulator issue.
 
