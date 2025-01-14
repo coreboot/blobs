@@ -2,3 +2,8 @@
 
 # Version 1.0
 1. Initial release.
+2. Base on MTK dev branch.
+
+# Version 1.1
+1. Change to use MTK release branch.
+2. Improve the CPU frequency to 3.6 GHz.
