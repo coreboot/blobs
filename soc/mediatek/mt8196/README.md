@@ -6,6 +6,7 @@
 - dram.elf
 - spm_firmware.bin
 - gpueb_fw.img
+- pi_img.img
 
 --------------------------------------------------------------------------------
 # MCUPM introduction
@@ -214,5 +215,23 @@ No return value.
 
 ## Version
 `$ strings gpueb_fw.img | grep "gpueb firmware"`
+
+--------------------------------------------------------------------------------
+# PI_IMG introduction
+The main purpose of the pi_img is to pass various frequency and voltage scaling parameters and
+settings to MCUPM.
+
+## Who uses it
+Coreboot will load pi_img firmware at ramstage and parse it using mtk_fsp_ramstage.
+
+## How to load `pi_img`
+Load `pi_img.img` from CBFS.
+No need to pass other parameters to pi_img.
+
+## Return values
+No return value.
+
+## Version
+`$ strings pi_img.img | grep "pi_img firmware"`
 
 --------------------------------------------------------------------------------
