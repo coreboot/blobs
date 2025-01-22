@@ -1,0 +1,7 @@
+# 1.0
+
+1. An official build from ChromeOS version 16169.0.0.
+
+2. Included changes:
+
+- CL:*7872928 mt8196: Add DPSW support

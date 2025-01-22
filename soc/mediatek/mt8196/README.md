@@ -7,6 +7,7 @@
 - spm_firmware.bin
 - gpueb_fw.img
 - pi_img.img
+- mtk_fsp_romstage.elf
 
 --------------------------------------------------------------------------------
 # MCUPM introduction
@@ -233,5 +234,26 @@ No return value.
 
 ## Version
 `$ strings pi_img.img | grep "pi_img firmware"`
+
+--------------------------------------------------------------------------------
+# mtk_fsp_romstage.elf introduction
+It is a new blob named MediaTek firmware support package (mtk-fsp) in romstage that includes:
+
+- power switch: It is a hardware design used to switch between two power inputs to determine
+  the output voltage. This design is typically applied to systems that require
+  dynamic voltage adjustment, such as the Constant Voltage, Constant Current of SRAM.
+
+## Who uses it
+Coreboot loads `mtk_fsp_romstage.elf` during the first bootup.
+
+## How to load `mtk_fsp_romstage.elf`
+Coreboot locates `mtk_fsp_romstage.elf` file, locates the entry point `_start()` to execute
+`mtk_fsp_romstage.elf`.
+
+## Return values
+0 on success; non-zero on failure.
+
+## Version
+`$ strings mtk_fsp_romstage.elf | grep "interface version"`
 
 --------------------------------------------------------------------------------
