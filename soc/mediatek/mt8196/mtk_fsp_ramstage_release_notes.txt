@@ -1,0 +1,16 @@
+# 1.0
+
+1. An official build from ChromeOS version 16180.0.0.
+
+2. Included changes:
+
+- CL:*7980493 mt8196/kraken_v3: Fix incorrect use of %p
+- CL:*7980491 asm: Add isb() and dsb()
+- CL:*7979169 mt8196: Remove redundant '0x'
+- CL:*7979168 mt8196: Fix using uninitialized ld_symtree_start
+- CL:*7885449 mt8196: Add kraken load for DVFS
+- CL:*7872949 mt8196: Add SMPU driver
+- CL:*7962150 mt8196: mtk-fsp: Add assert support
+- CL:*7872950 mt8196: mt8196: Add devapc basic drivers
+- CL:*7872948 mt8196: mt8196: Add MMinfra support
+- CL:*7832067 mt8196: mt8196: Add UFS support
