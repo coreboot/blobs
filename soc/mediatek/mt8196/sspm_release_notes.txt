@@ -1,5 +1,8 @@
 ** Build from MediaTek Internal **
 
+# Version 4.0
+1. Update sspm.bin to fix EMI unmap register issue and make syetem fully sleep.
+
 # Version 3.0
 1. Update sspm.bin to disable waking up SPM function.
 
