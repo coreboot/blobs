@@ -9,6 +9,7 @@
 - pi_img.img
 - mtk_fsp_romstage.elf
 - mtk_fsp_ramstage.elf
+- libbl31.a
 
 --------------------------------------------------------------------------------
 # MCUPM introduction
@@ -282,3 +283,19 @@ to it, and calls _start() to execute 'mtk_fsp_ramstage.elf'
 `$ strings mtk_fsp_ramstage.elf | grep "interface version"`
 
 --------------------------------------------------------------------------------
+# libbl31.a introduction
+It is a static library that contains MediaTek private drivers in ARM-Trusted-Firmware such as:
+
+- UFS driver
+- SMPU (Security Memory Protection Unit) driver
+- SLBC driver
+- CPU QOS driver
+- MMinfra driver
+- SMMU SID driver
+
+## Who uses it
+By specifying the `MTKLIB_PATH=libbl31.a` make variable when building BL31, the library will be
+linked with `bl31.elf`.
+
+## Version
+`$ strings libbl31.a | grep "build version"`

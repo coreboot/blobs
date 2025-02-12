@@ -1,0 +1,9 @@
+# 16174.21.0
+
+1. Included patches:
+
+- CL:*8020869 CHROMIUM: fix(mt8196): remove duplicate mapping from smmu_sid
+- CL:*8004011 feat(mt8196): add mminfra and smmu_sid drivers
+- CL:*8004010 feat(mt8196): add MT8196 slbc and cpu_qos drivers
+- CL:*8004009 feat(mt8196): add MT8196 SMPU driver
+- CL:*8004008 feat(mt8196): add MT8196 UFS driver
