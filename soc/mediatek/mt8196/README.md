@@ -267,6 +267,7 @@ It is a new blob named MediaTek firmware support package (mtk-fsp) in ramstage t
 - MMinfra (Multimedia Infrastrucutre) settings.
 - SMPU (Security Memory Protection Unit) settings.
 - Advanced CPU frequency control.
+- Disable clock for Crypto hardware.
 
 ## Who uses it
 Coreboot loads `mtk_fsp_ramstage.elf` during the first bootup.
@@ -280,7 +281,7 @@ to it, and calls _start() to execute 'mtk_fsp_ramstage.elf'
 0 on success; non-zero on failure.
 
 ## Version
-`$ strings mtk_fsp_ramstage.elf | grep "interface version"`
+`$ strings mtk_fsp_ramstage.elf | grep "build version"`
 
 --------------------------------------------------------------------------------
 # libbl31.a introduction

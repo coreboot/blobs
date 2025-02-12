@@ -1,3 +1,13 @@
+# 16174.22.0
+
+1. An official build from ChromeOS version 16174.22.0.
+
+2. Included changes:
+
+- CL:*8013108 mtk-fsp: Add build version info
+- CL:*8009008 mt8196: Disable clock for Crypto hardware
+- CL:*7980492 mt8196/kraken_v3: Call dsb() after writing to CSRAM
+
 # 1.0
 
 1. An official build from ChromeOS version 16180.0.0.
