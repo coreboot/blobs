@@ -7,3 +7,6 @@
 # Version 1.1
 1. Change to use MTK release branch.
 2. Improve the CPU frequency to 3.6 GHz.
+
+# Version 1.2
+1. Update coefficient for MCU-LVTS reboot temperature setting.
