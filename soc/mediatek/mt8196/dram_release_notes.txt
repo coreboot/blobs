@@ -12,3 +12,11 @@
 
 - CL:*7518650 mt8196: SLC: Port SLC driver
 - CL:*7842174 mtk-dramk/mt8196: Sync to MediaTek's preloader version 20241121
+
+# 16174.34.0
+
+1. An official build from ChromeOS version 16174.34.0.
+
+2. Included changes:
+
+- CL:*8030082 mt8196: EMI: Add EMI clock pre setting and post setting
