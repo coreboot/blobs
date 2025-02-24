@@ -1,5 +1,9 @@
 ** Build from MediaTek Internal **
 
+# Version 5.0
+1. Update sspm.bin to set USB reg to reduce ldm delay time and solve USB
+audio and video issues.
+
 # Version 4.0
 1. Update sspm.bin to fix EMI unmap register issue and make syetem fully sleep.
 
