@@ -1,3 +1,12 @@
+# 16174.45.0
+
+1. An official build from ChromeOS version 16174.45.0.
+
+2. Included changes:
+
+- CL:*8059008 mt8196: Add read and write permission of VLP register for SSPM
+- CL:*8058690 mt8196: Add read and write permission of USB register for SSPM
+
 # 16174.22.0
 
 1. An official build from ChromeOS version 16174.22.0.
