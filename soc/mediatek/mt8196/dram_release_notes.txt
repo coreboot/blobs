@@ -20,3 +20,12 @@
 2. Included changes:
 
 - CL:*8030082 mt8196: EMI: Add EMI clock pre setting and post setting
+
+# 16174.54.0
+
+1. An official build from ChromeOS version 16174.54.0.
+
+2. Included changes:
+
+- CL:*8072489 mt8196: EMI: Clear EMIPLL clock setting enable register
+- CL:*8046129 mt8196: SLC: Prohibit the APMCU from continuously pulling ultra
