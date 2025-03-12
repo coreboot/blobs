@@ -29,3 +29,12 @@
 
 - CL:*8072489 mt8196: EMI: Clear EMIPLL clock setting enable register
 - CL:*8046129 mt8196: SLC: Prohibit the APMCU from continuously pulling ultra
+
+# 16174.61.0
+
+1. An official build from ChromeOS version 16174.61.0.
+
+2. Included changes:
+
+- CL:*8100568 Add build version info
+- CL:*8096629 mt8196: EMI: Adjust the mapping between DVFS gear levels and DRAM frequency
