@@ -2,6 +2,7 @@
 - dpm.dm
 - dpm.pm
 - mcupm.bin
+- spm_firmware.bin
 
 --------------------------------------------------------------------------------
 # DPM introduction
@@ -48,3 +49,23 @@ No return value.
 
 ## Version
 `$ strings mcupm.bin | grep "MCUPM firmware"`
+
+--------------------------------------------------------------------------------
+# SPM introduction
+SPM is "System Power Manager" that provides power control for low power task.
+SPM provides power related features, e.g. Suspend, Vcore dvfs
+
+SPM firmware is loaded into SPM SRAM at system initialization.
+
+## Who uses it
+Coreboot will load spm_firmware.bin to SPM SRAM at ramstage.
+
+## How to load `spm_firmware.bin
+Use CBFS to load `spm_firmware.bin`.
+No need to pass other parameters to SPM.
+
+## Return value
+No return value.
+
+## Version
+`$ strings spm_firmware.bin | grep "SPM firmware"`
