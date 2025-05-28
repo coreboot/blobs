@@ -1,0 +1,13 @@
+# 16297.0.0.
+
+1. An official build from ChromeOS version 16297.0.0.
+   Protocol (params header) version: 1
+
+2. Included changes
+- CL:*8301717 mt8189/dramc: Define FIRMWARE_FULLK_DATA_VERSION
+- CL:*8301716 common/cros: Support storing data version in full-k cached data
+- CL:*8164228 mtk-dramk/mt8189: Add EMI calibration support
+- CL:*8273636 mtk-dramk/mt8189: Add PMIC support and enable DVFS
+- CL:*8290496 mtk-dramk/mt8189: Fix undefined type U32 in efuse.h
+- CL:*8156491 mtk-dramk/mt8189: Make DRAM source code compilable
+- CL:*8157008 mtk-dramk/mt8189: First code drop from MT8189 internal DRAM preloader
