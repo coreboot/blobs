@@ -1,3 +1,19 @@
+# 16297.0.0
+
+1. Included patches:
+
+- CL:*8009011 CHROMIUM: feat(mt8196): add version info for the static library
+- CL:*8011910 feat(mt8196): add smmu_sid drivers
+- CL:*8258897 FROMLIST: feat(mt8196): add MMinfra support
+- CL:*8207835 feat(mt8196): add CPU QoS driver
+- CL:*8207834 feat(mt8196): add MT8196 SMPU driver
+- CL:*8258896 FROMLIST: refactor(mediatek): update EMI stub implementation
+- CL:*8240599 feat(mediatek): add APIs exposed to the static library
+- CL:*8008748 FROMLIST: fix(mt8196): add whole-archive option to prebuilt library
+- CL:*7046297 feat(mt8196): add private UFS driver
+- CL:*8207833 feat(mt8196): add SMMU driver for PM
+- CL:*8207832 feat(mt8196): enable appropriate errata
+
 # 16174.21.0
 
 1. Included patches:
