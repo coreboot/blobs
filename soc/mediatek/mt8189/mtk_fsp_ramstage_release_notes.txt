@@ -1,0 +1,19 @@
+# 16320.0.0
+
+1. An official build from ChromeOS version 16320.0.0
+
+2. Included changes:
+
+- CL:*8147596 mt8189: Add UFS support
+- CL:*8147597 mt8189: Add AOC driver
+- CL:*8325056 common: Remove BOM and convert files to Unix line endings
+- CL:*8302496 common: Change common devapc.h path from include/ to include/soc/
+- CL:*8302497 mt8196: Move MMInfra's common structures of to common code
+- CL:*8147598 mt8189: Add MMInfra support
+- CL:*8258346 mt8189: Add DAPC basic drivers
+- CL:*8258348 mt8196: Move common functions to common smpu.c
+- CL:*8258349 mt8189: Add SMPU driver
+- CL:*8335136 mt8196/smpu: Remove reduntant code from smpu_region_info_table
+- CL:*8335138 mt8189/dapc: Fix mminfra DAPC permission settings
+- CL:*8334405 mt8189/dapc: Fix domain 14 MCUPM DAPC violations for GPIO registers
+- CL:*8335137 mt8189/ufs: Add recommended UFS MPHY init settings for stability

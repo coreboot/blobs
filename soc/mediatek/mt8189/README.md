@@ -194,3 +194,27 @@ No return value.
 
 ## Version
 `$ strings sspm.bin | grep "SSPM firmware"`
+
+--------------------------------------------------------------------------------
+# mtk_fsp_ramstage.elf introduction
+It is a new blob named MediaTek firmware support package (mtk-fsp) in ramstage that includes:
+
+- UFS mphy settings.
+- AOC (Always on leakage control) settings.
+- DPAC (Device Access Permission Control) settings.
+- MMinfra (Multimedia Infrastrucutre) settings.
+- SMPU (Security Memory Protection Unit) settings.
+
+## Who uses it
+Coreboot loads `mtk_fsp_ramstage.elf` during the first bootup.
+
+## How to load `mtk_fsp_ramstage.elf`
+Coreboot locates `mtk_fsp_ramstage.elf` file, locates the entry point `_start()`,
+passes a `mtk_fsp_param` struct argument 'param_type', 'param_size' and 'param'
+to it, and calls _start() to execute 'mtk_fsp_ramstage.elf'
+
+## Return values
+0 on success; non-zero on failure.
+
+## Version
+`$ strings mtk_fsp_ramstage.elf | grep "build version"`
