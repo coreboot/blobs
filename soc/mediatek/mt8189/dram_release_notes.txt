@@ -1,3 +1,12 @@
+# 16322.0.0.
+
+1. An official build from ChromeOS version 16322.0.0.
+   Protocol (params header) version: 1
+
+2. Included changes
+- CL:*8340657 mtk-dramk/mt8189: Call emi_addr2dram outside of dramc_crit
+
+
 # 16297.0.0.
 
 1. An official build from ChromeOS version 16297.0.0.
