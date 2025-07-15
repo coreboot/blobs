@@ -1,3 +1,12 @@
+# 16348.0.0.
+
+1. An official build from ChromeOS version 16348.0.0.
+   Protocol (params header) version: 1
+
+2. Included changes
+- CL:*8362078 mtk-dramk/mt8189: Reduce DRAMC calibration log
+
+
 # 16322.0.0.
 
 1. An official build from ChromeOS version 16322.0.0.
