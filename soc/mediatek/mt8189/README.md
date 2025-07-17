@@ -3,6 +3,7 @@
 - dpm.pm
 - dram.elf
 - mcupm.bin
+- pi_img.img
 - spm_firmware.bin
 - sspm.bin
 
@@ -153,6 +154,24 @@ No return value.
 
 ## Version
 `$ strings mcupm.bin | grep "MCUPM firmware"`
+
+--------------------------------------------------------------------------------
+# PI image introduction
+The main purpose of the PI image is to pass various frequency and voltage scaling parameters and
+settings to MCUPM.
+
+## Who uses it
+Coreboot will load PI image firmware at ramstage and parse it using mtk_fsp_ramstage.
+
+## How to load `pi_img.img`
+Load `pi_img.img` from CBFS.
+No need to pass other parameters to pi_img.img.
+
+## Return values
+No return value.
+
+## Version
+`$ strings pi_img.img | grep "PI_IMG firmware"`
 
 --------------------------------------------------------------------------------
 # SPM introduction

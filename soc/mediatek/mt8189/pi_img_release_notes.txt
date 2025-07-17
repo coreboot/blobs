@@ -1,0 +1,5 @@
+** Build from MediaTek Internal **
+
+# Version 1.0
+1. Add initial PI_IMG firmware using MTK release branch and align with
+MCUPM.
