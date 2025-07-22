@@ -1,3 +1,11 @@
+# 16357.0.0
+
+1. An official build from ChromeOS version 16357.0.0
+
+2. Included changes:
+
+- CL:*8380456 mt8189: Add Picachu load for DVFS
+
 # 16320.0.0
 
 1. An official build from ChromeOS version 16320.0.0
