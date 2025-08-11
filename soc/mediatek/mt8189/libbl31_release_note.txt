@@ -1,0 +1,9 @@
+# 16378.0.0
+
+1. Included patches:
+- CL:*8343879 feat(mt8189): initialize platform for MediaTek MT8189
+- CL:*8425896 sys-boot: Add mtk-bl31 package
+- CL:*8352036 feat(mediatek): refactor UFS driver
+- CL:*8449716 feat(mt8189): add SMPU driver
+- CL:*8448658 refactor(mediatek): refactor SMPU driver for code resue
+- CL:*8467842 fix(mt8196): fix inverted assertion condition in set_smpu_aid_table()
