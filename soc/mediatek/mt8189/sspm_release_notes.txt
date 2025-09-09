@@ -1,5 +1,8 @@
 ** Build from MediaTek Internal **
 
+# Version 4.0
+1. Update sspm.bin to fix not entering 26m at first suspend after boot.
+
 # Version 3.0
 1. Update sspm.bin to support MMInfra feature in suspend/resume scenarios.
 
