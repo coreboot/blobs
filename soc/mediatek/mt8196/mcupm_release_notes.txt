@@ -16,3 +16,6 @@
 
 # Version 1.4
 1. Fix the high power consumption issue during CPU boost.
+
+# Version 1.5
+1. Support MT8196 plus device.
