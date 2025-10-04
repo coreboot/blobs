@@ -3,6 +3,3 @@
 # Version 1.0
 1. Add initial PI_IMG firmware using MTK release branch and align with
 MCUPM.
-
-# Version 1.1
-1. Support MT8196 plus device.
