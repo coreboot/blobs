@@ -38,3 +38,14 @@
 
 - CL:*8100568 Add build version info
 - CL:*8096629 mt8196: EMI: Adjust the mapping between DVFS gear levels and DRAM frequency
+
+# 16486.0.0
+
+1. An official build from ChromeOS version 16486.0.0.
+
+2. Included changes:
+
+- CL:*8361678: mtk-dramk/mt8196: Add support for maximum DDR frequency up to 9600Mbps
+- CL:*8721978: mtk-dramk/mt8196: Add efuse segment code read function
+- CL:*8721979: mtk-dramk/mt8196: Support DDR9600 based on efuse segment code
+- CL:*8746442: mt8196: Adjust the mapping between DVFS gear levels and DRAM frequency
