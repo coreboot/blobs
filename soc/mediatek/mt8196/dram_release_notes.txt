@@ -49,3 +49,14 @@
 - CL:*8721978: mtk-dramk/mt8196: Add efuse segment code read function
 - CL:*8721979: mtk-dramk/mt8196: Support DDR9600 based on efuse segment code
 - CL:*8746442: mt8196: Adjust the mapping between DVFS gear levels and DRAM frequency
+
+# 16514.0.0
+
+1. An official build from ChromeOS version 16514.0.0.
+   Protocol (params header) version: 5
+
+2. Included changes:
+
+- CL:*8795263 mtk-dramk/mt8196: Fix DRAM fast calibration issue
+- CL:*8813496 mtk-dramk/mt8196: Set VCORE DVFS flag for DDR 9600Mbps
+
