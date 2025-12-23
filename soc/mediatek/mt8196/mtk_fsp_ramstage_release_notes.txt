@@ -1,3 +1,25 @@
+# 16531.0.0
+
+1. An official build from ChromeOS version 16531.0.0.
+
+2. Included changes:
+
+- CL:*8540116 mt8196: Fix missing HW AID for NSR to avoid SMPU violation
+- CL:*8335136 mt8196/smpu: Remove reduntant code from smpu_region_info_table
+- CL:*8258348 mt8196: Move common functions to common smpu.c
+- CL:*8302497 mt8196: Move MMInfra's common structures of to common code
+- CL:*8302496 common: Change common devapc.h path from include/ to include/soc/
+- CL:*8325056 common: Remove BOM and convert files to Unix line endings
+- CL:*8302506 .clang-format: Change UseTab to Always
+- CL:*8258978 mt8196: mt8196: Add R/W permission of SEMI and NEMI register for DVFSRC
+- CL:*8097212 mt8196: Add ADCC support
+- CL:*8227236 mt8196: Add DELSEL support
+- CL:*8218377 mt8196: Add PLL driver support
+- CL:*8192289 mtk-fsp: Move common cmake defs to common/common_defs.cmake
+- CL:*8083357 mt8196: Add PMIF and PMIC driver
+- CL:*8203488 mt8196: Merge romstage and ramstage linker scripts into one
+- CL:*8061519 Add top-level DIR_METADATA
+
 # 16174.45.0
 
 1. An official build from ChromeOS version 16174.45.0.
