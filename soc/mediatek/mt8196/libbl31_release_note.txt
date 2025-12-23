@@ -1,3 +1,16 @@
+# 16531.0.0
+
+1. Included patches:
+
+- CL:*8611496 feat(mt8196): permit NSR access
+- CL:*8611138 feat(mt8196): add GPUEB shared buffer into SR
+- CL:*8489277 feat(mt8189): add version string to libmtk.a
+- CL:*8448658 refactor(mediatek): refactor SMPU driver for code resue
+- CL:*8467842 fix(mt8196): fix inverted assertion condition in set_smpu_aid_table()
+- CL:*8449399 Copy PRESUBMIT.cfg and .checkpatch.conf from fsp repo
+- CL:*8352036 feat(mediatek): refactor UFS driver
+- CL:*8343878 refactor(mediatek) move plat_macros.S and plat_private.h to common folder
+
 # 16297.0.0
 
 1. Included patches:
