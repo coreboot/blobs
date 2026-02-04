@@ -1,5 +1,10 @@
 ** Build from MediaTek Internal **
 
+# Version 3.0
+1. Remove the CR0 Check when saving the SMMU registers.
+2. Fix the issue with restoring the SMMU GBPA.
+3. Remove "active_sleep_control" from the MFG2 interrupt handler.
+
 # Version 2.0
 1. Add Save & Restore for SMMU GBPA.
 2. Upgrade ALPS to V15.10.
