@@ -1,3 +1,12 @@
+# 16605.0.0
+
+1. An official build from ChromeOS version 16605.0.0.
+
+2. Included changes:
+
+- CL:*9042978 mt8196: Add GCE DAPC permission for display pipeline
+- CL:*8996999 mt8196: Fix GCE DAPC violations for DISP_APB_S-11
+
 # 16555.0.0
 
 1. An official build from ChromeOS version 16555.0.0.
