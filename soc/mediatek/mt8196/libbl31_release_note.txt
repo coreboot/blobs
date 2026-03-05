@@ -1,3 +1,9 @@
+# 16605.0.0
+
+- CL:*8960358 fix(mt8196): smmu_sid: Remove redundant mmap operations
+- CL:*8947300 feat(mt8196): smmu_sid: Set GPUEB bypass SMMU
+- CL:*8611496 feat(mt8196): permit NSR access
+
 # 16531.0.0
 
 1. Included patches:
