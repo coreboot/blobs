@@ -6,3 +6,6 @@ MCUPM.
 
 # Version 1.1
 1. Support MT8196 plus device.
+
+# Version 1.2
+1. Remove unused sections.
