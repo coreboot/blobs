@@ -1,9 +1,18 @@
+Copyright (c) 2019-2026 MediaTek Inc.
+All right reserved.
+
 MediaTek Inc. grants permission to use and redistribute aforementioned firmware
 files for the use with devices containing MediaTek chipsets, but not as part of
 the Linux kernel or in any other form which would require these files themselves
 to be covered by the terms of the GNU General Public License or the GNU Lesser
-General Public License.
+General Public License. Redistribution must retain this copyright notice and
+license terms in all copies or substantial portions of the firmware files.
+
+You may not reverse engineer, disassemble, decompile, or otherwise attempt to
+derive or extract the source code, underlying algorithms, data structures, or
+technology from these firmware files.
 
 These firmware files are distributed in the hope that they will be useful, but
-are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
-OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+are provided "AS IS" and are provided WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
