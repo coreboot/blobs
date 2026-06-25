@@ -60,3 +60,11 @@
 - CL:*8795263 mtk-dramk/mt8196: Fix DRAM fast calibration issue
 - CL:*8813496 mtk-dramk/mt8196: Set VCORE DVFS flag for DDR 9600Mbps
 
+# 16727.0.0
+
+1. An official build from ChromeOS version 16727.0.0.
+
+2. Included changes:
+
+- CL:*9349921 mtk-dramk/mt8196: Replace SUPPORT_DDR9600 with runtime check
+- CL:*9373944 mtk-dramk/mt8196: Disable EDVFSC for LP5
