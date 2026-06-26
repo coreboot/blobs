@@ -1,6 +1,6 @@
 # Firmware list
 
-- drame.elf
+- dram.elf
 
 # `dram.elf` Introduction
 

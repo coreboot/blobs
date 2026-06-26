@@ -78,8 +78,11 @@ for faster bootup after the frist bootup.
    - < 0 : means failed.
 
 ## Version
-  - $ strings dram.elf | grep "firmware version"
-    MediaTek DRAM firmware version: 1.6.3
+
+```
+$ strings dram.elf | grep "firmware version"
+MediaTek DRAM firmware version: 1.6.3
+```
 
 --------------------------------------------------------------------------------
 # DPM Introduction
@@ -123,8 +126,10 @@ when system is in suspend. Also, SPM helps support Vcore DVFS feature.
    - no  : assert(0)
 
 ## Version
-   Search "spmfw (version" will show log like below
-   - spmfw (version pcm_suspend_v1.43_no_GPU_WAYEN)
+```
+$ strings spm_firmware.bin | grep pcm_suspend
+pcm_suspend_v1.43_no_GPU_WAYEN
+```
 
 --------------------------------------------------------------------------------
 # SSPM Introduction
@@ -146,8 +151,10 @@ SSPM firmware is loaded into SSPM SRAM at system initialization.
   - No return value.
 
 ## Version
-  - $ strings sspm.bin | grep version
-    MediaTek SSPM firmware: version 1.0.0
+```
+$ strings sspm.bin | grep version
+MediaTek SSPM firmware: version 1.0.0
+```
 
 --------------------------------------------------------------------------------
 # MCUPM Introduction
@@ -166,5 +173,7 @@ MCUPM SRAM at system initialization.
   - No return value.
 
 ## Version
-  - $ strings mcupm.bin | grep MCUPM
-    MediaTek MCUPM firmware: version 1.00.07
+```
+$ strings mcupm.bin | grep "MCUPM firmware"
+MediaTek MCUPM firmware: version 1.00.07
+```

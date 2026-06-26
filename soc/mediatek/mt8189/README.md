@@ -154,7 +154,7 @@ Use CBFS to load `mcupm.bin`, then set normal boot flag and release software res
 No return value.
 
 ## Version
-`$ strings mcupm.bin | grep "MCUPM firmware"`
+`$ strings mcupm.bin | grep -i "mcupm firmware"`
 
 --------------------------------------------------------------------------------
 # PI image introduction

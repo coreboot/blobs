@@ -177,7 +177,7 @@ Then, Coreboot saves the parameters on the specified firmware flash section:
 0 on success; < 0 on failure.
 
 ## Version
-`$ strings dram.elf | grep "firmware version"`
+`$ strings dram.elf | grep "build version"`
 
 --------------------------------------------------------------------------------
 # SPM introduction
