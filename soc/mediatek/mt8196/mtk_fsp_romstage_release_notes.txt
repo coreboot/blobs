@@ -1,3 +1,14 @@
+# 16733.0.0
+
+1. An official build from ChromeOS version 16733.0.0.
+
+2. Included changes:
+
+- Update to 16733.0.0.
+- Includes changes since 1.0 (ChromeOS 16169.0.0):
+  - CL:*7885446 mt8196: Add WLA driver support
+  - CL:*9350801 common/assert: Halt execution on assertion failure
+
 # 1.0
 
 1. An official build from ChromeOS version 16169.0.0.

@@ -256,7 +256,7 @@ Coreboot locates `mtk_fsp_romstage.elf` file, locates the entry point `_start()`
 0 on success; non-zero on failure.
 
 ## Version
-`$ strings mtk_fsp_romstage.elf | grep "interface version"`
+`$ strings mtk_fsp_romstage.elf | grep "build version"`
 
 --------------------------------------------------------------------------------
 # mtk_fsp_ramstage.elf introduction
