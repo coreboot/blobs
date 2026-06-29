@@ -1,3 +1,7 @@
+# 16733.0.0
+
+- CL:*9309521 fix(mt8196): smpu: Fix dynamic CMA regions not able clear protection
+
 # 16605.0.0
 
 - CL:*8960358 fix(mt8196): smmu_sid: Remove redundant mmap operations
