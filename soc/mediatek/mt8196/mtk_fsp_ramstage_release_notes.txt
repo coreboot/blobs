@@ -1,3 +1,21 @@
+# 16733.0.0
+
+1. An official build from ChromeOS version 16733.0.0.
+
+2. Included changes:
+
+- CL:*9358760 mt8196: Document Kraken image memory layout and boundary safety
+- CL:*9351602 mt8196/kraken_v3: Add bounds checking for section and payload offsets
+- CL:*9350801 common/assert: Halt execution on assertion failure
+- CL:*9351220 mt8196/kraken_v3: Fix kraken integer overflow in destination size check
+- CL:*9296500 mt8196: Synchronize secure-dynamic-cma permission with secure-cma
+- CL:*9231738 smpu: Optimize permission initialization for memory and speed
+- CL:*9239421 dapc: Standardize on fast initialization using full-register writes
+- CL:*9231737 smpu: Implement hardware setting dump function
+- CL:*9278923 smpu: Rename AID_PERM_TABEL to AID_PERM_TABLE
+- CL:*9238560 mt8196: Change access permission from RW to RO for protected GPU
+- CL:*9076436 mt8196: Fix GCE DAPC violations for MMINFRA_APB_S-2 and MMINFRA_APB_S-3
+
 # 16605.0.0
 
 1. An official build from ChromeOS version 16605.0.0.
