@@ -19,3 +19,6 @@
 
 # Version 1.5
 1. Support MT8196 plus device.
+
+# Version 1.6
+1. Disable CPU peak power throttling.
