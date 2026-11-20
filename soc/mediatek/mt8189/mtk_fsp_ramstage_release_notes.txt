@@ -1,3 +1,31 @@
+# 16894.0.0
+
+1. An official build from ChromeOS version 16894.0.0
+
+2. Included changes:
+
+- CL:*9541077 mt8189/devapc: Restrict MCUSYS_CFGREG to secure-only
+- CL:*10062830 mt8189/devapc: Harden INFRA_SECURITY_AO register permissions
+- CL:*9568037 mt8189/devapc: Restrict debug APB ranges to SEC_RW_NS_R
+- CL:*10025335 mt8189/devapc: Make SSPM APB ranges secure-only except SCMI mailboxes
+- CL:*10119588 mt8189/devapc: Allow SPM secure access to SRCLKEN_RC
+- CL:*10106927 common/timer: Use a fixed system counter frequency
+- CL:*10062829 mt8189: Harden North EMI SMPU and HRE register permissions
+- CL:*10070649 mt8189/dvfs: Add CPU DVFS initialization
+- CL:*10070647 common/dvfs: Add common CPU DVFS framework
+- CL:*10090887 common: Add dcache_clean_invalidate_by_mva()
+- CL:*10070127 smpu: Remove unused region_perm_drm field
+- CL:*9951835 mt8189/devapc: Dynamic BND_NORTH_APB1_S configuration
+- CL:*9707435 mt8189/ufs: Skip MPHY init on non-UFS SKUs
+- CL:*9547236 mt8189/devapc: Write-protect DRAMC_AO TOP0 registers for Domain 0
+- CL:*9547516 mt8189/devapc: Restrict FAKE_ENGINE APB ranges to secure-only
+- CL:*9350801 common/assert: Halt execution on assertion failure
+- CL:*9231738 smpu: Optimize permission initialization for memory and speed
+- CL:*9239421 dapc: Standardize on fast initialization using full-register writes
+- CL:*9231737 smpu: Implement hardware setting dump function
+- CL:*9278923 smpu: Rename AID_PERM_TABEL to AID_PERM_TABLE
+- CL:*8765999 mt8189: Fix missing HW AID for NSR to avoid SMPU violation
+
 # 16404.0.0
 
 1. An official build from ChromeOS version 16404.0.0
