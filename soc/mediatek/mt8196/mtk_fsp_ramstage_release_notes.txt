@@ -1,3 +1,30 @@
+# 16894.0.0
+
+1. An official build from ChromeOS version 16894.0.0.
+
+2. Included changes:
+
+- CL:*10106927 common/timer: Use a fixed system counter frequency
+- CL:*10119248 Revert "mt8196/adcc: Program CNTFRQ_EL0 on secondary CPUs"
+- CL:*10091087 mt8196/adcc: Program CNTFRQ_EL0 on secondary CPUs
+- CL:*10070648 mt8196/dvfs: Add CPU DVFS initialization
+- CL:*10070647 common/dvfs: Add common CPU DVFS framework
+- CL:*10090887 common: Add dcache_clean_invalidate_by_mva()
+- CL:*10070127 smpu: Remove unused region_perm_drm field
+- CL:*9634395 mt8196/devapc: Dynamic BND_WEST_APB22_S configuration
+- CL:*9568036 mt8196/devapc: Restrict DBGSYS APB ranges to SEC_RW_NS_R
+- CL:*9584960 mt8196/devapc: Restrict L3C_S-25 to secure-only
+- CL:*9573296 mt8196/devapc: Allow AP access to GPUEB register
+- CL:*9548895 mt8196/devapc: Write-protect GPUEB TCM and DEBUG_COMP for Domain 0
+- CL:*9547515 mt8196/devapc: Restrict FAKE_ENGINE APB ranges to secure-only
+- CL:*9547235 mt8196/devapc: Write-protect DRAMC_AO TOP0 registers for Domain 0
+- CL:*9560536 mt8196/devapc: Allow SPM access to SMPU registers for S3 resume
+- CL:*9492179 mt8196/devapc: Harden Secure SMPU and SMMU_SID register permissions
+- CL:*9492177 mt8196/devapc: Harden MMINFRA register permissions
+- CL:*9492180 mt8196/mminfra: Remap GCE-D VM-IDs to isolate from secure CPU
+- CL:*9492178 mt8196/devapc: Harden HRE2 register permissions
+- CL:*9492176 mt8196/devapc: Harden SECWP register permissions
+
 # 16733.0.0
 
 1. An official build from ChromeOS version 16733.0.0.
