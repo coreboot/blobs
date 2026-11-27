@@ -68,3 +68,11 @@
 
 - CL:*9349921 mtk-dramk/mt8196: Replace SUPPORT_DDR9600 with runtime check
 - CL:*9373944 mtk-dramk/mt8196: Disable EDVFSC for LP5
+
+# 16900.0.0
+
+1. An official build from ChromeOS version 16900.0.0.
+
+2. Included changes:
+
+- CL:*10118647 mtk-dramk/mt8196: Respect MR8 when selecting Samsung DDR9600
